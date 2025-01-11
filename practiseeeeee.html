@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* SELECTORS */
+        .::before {
+            content: "wfsfsefsf";
+
+        }
+
+
+        /* .box::before {
+                        content: "cfsdvv";
+                    } */
+
+        ::selection {
+            background-color: aqua;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        /*  */
+
+        :root {
+            --color: rgba(212, 122, 209, 0.762);
+            --seccolor: rgba(209, 167, 219, 0.558);
+            --defpad: 23px;
+            --defop: 0.4;
+        }
+
+        /* body */
+        body {
+            background-color: var(--seccolor);
+        }
+
+        /*  NAV BAR */
+
+        nav {
+            position: sticky;
+            top: 0px;
+            border: 2px SOLID black;
+            padding: 10px;
+            justify-items: right;
+            background-color: var(--color);
+        }
+
+        nav ul li {
+            padding: 5px;
+            margin: 5px;
+            border: 2px SOLID black;
+            list-style: devanagari;
+            display: inline-block;
+            color: rgb(48, 5, 104);
+            background-color: #7691b1;
+            /* list-style-type: "🔥"; */
+        }
+
+/*  */
+
+        h2 {
+            font-family: 'Baloo Bhai 2', sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-color: blue;
+            margin:40px;
+            
+
+        }
+
+/*  */
+        /* MARGIN,PADDING AND COLOUR*/
+        .main {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+
+        .box {
+            padding: 15px;
+        }
+
+
+        /* DISPLAY */
+        .box {
+            display: flex;
+
+
+        }
+
+        .box1 {
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 5px 10px #0ba8a0;
+        }
+
+        .text-element {
+            text-shadow: 5px 3px 5px #c527e4
+        }
+
+
+
+
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+
+
+
+
+        position: fixed;
+        bottom: 0px;
+
+        img {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <h2>WELCOME YOU ALL</h2>
+    </div>
+
+    <div class="boxes">
+        <div class="box box1">hi</div>
+        <div class="box box2">I'm</div>
+        <div class="box box3">sourav</div>
+    </div>
+
+
+
+    <div class="textbox">
+        <input type="text" placeholder="Enter here">
+    </div>
+
+
+
+
+</body>
+
+</html>
